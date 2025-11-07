@@ -1,0 +1,4 @@
+const CONFIG = {
+  RACE_DURATION: 10000,
+  CHARACTER_SPEED: 5
+};
