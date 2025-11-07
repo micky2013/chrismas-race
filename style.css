@@ -1,0 +1,77 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #e0f7fa;
+}
+
+header {
+  background: #3e64ff;
+  width: 100%;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
+
+footer {
+  position: fixed;
+  bottom: 10px;
+  text-align: center;
+  width: 100%;
+  padding: 10px;
+  background-color: #3e64ff;
+  color: white;
+}
+
+/* Main content area */
+.game-container {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: #ffffff;
+  border: 2px solid #3e64ff;
+  overflow: hidden;
+  margin-top: 20px;
+}
+
+.race-track {
+  position: relative;
+  height: 100%;
+  background: #00bcd4;
+  overflow: hidden;
+  width: 100%;
+}
+
+.character {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 50px;
+  height: 50px;
+  background: url('assets/santa.png') no-repeat center center;
+  background-size: cover;
+  transition: all 0.2s;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3e64ff;
+  color: white;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+button:hover {
+  background-color: #1f4db3;
+}
+
+.hidden {
+  display: none;
+}
